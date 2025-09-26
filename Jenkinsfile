@@ -21,8 +21,8 @@ pipeline {
                 '''
             }
         }
-        stage('Test'){
-            steps{
+        stage('Test') {
+            steps {
                 sh 'test -f build/index.html'
             }
         }
